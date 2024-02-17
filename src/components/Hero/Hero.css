@@ -1,0 +1,75 @@
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: rgb(66, 24, 218);
+
+    transition: ease all 3s;
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        min-height: 100vh;
+        background-position:calc(-120px);
+        
+    }
+  }
+ h1, div{
+    transition: ease all 0.9s;;
+ }
+
+.color-overlay {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.website-title {
+
+}
+
+.hero {
+    position: relative;
+}
+.img-logo {
+    position: absolute;
+    top:0px;
+    left:0px;
+    padding: 5px
+
+}
+.btn-primary, .btn{
+    background-color:rgb(42, 70, 131) !important;
+    border:none !important;
+    box-shadow: 2px 2px 7px 5px rgb(60, 59, 68);
+    font-family:  sans-serif;
+}
+
+.btn:hover {
+    background-color:rgb(98, 103, 112) !important;
+    box-shadow: 2px 2px 7px 5px rgb(41, 38, 66);
+}
+
+
+
+.text-slogan {
+    font-size:large;
+    font-style: italic;
+    font-weight:normal;
+    color: rgb(211, 211, 228);
+}
+#break-line {
+    width: 350px;
+    margin: 12px auto;
+}
+#get-started {
+    font-size: larger;
+    font-family:monospace;
+}
+
+.right-pane {
+    margin-top: 75px;
+}
+.img-thu {
+    /* max-width: 100% */
+    width: 100px;
+    padding: 3px;
+    margin: 20px;
+}
